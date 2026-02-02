@@ -32,3 +32,57 @@
   font-weight: 600;
   color: white;
 }
+
+
+.hero-overlay {
+  background: rgba(10, 30, 50, 0.75);
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('/images/hero-bg.png') 
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: white;
+  padding: 8px 18px;
+  color: #00d559;
+  border-radius: 1000px;
+  margin-bottom: 18px;
+}
+
+.hero-content h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 18px;
+  color: white;
+}
+.white {
+  color: #30b868;
+}
+.hero-content p {
+  max-width: 720px;
+  margin: 0 auto 32px auto;
+  color: white;
+}
+.btn-green {
+  background: #30b868;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.btn-outline {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 14px 28px;
+  border-radius: 6px;
+}
