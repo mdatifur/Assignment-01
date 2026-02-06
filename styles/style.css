@@ -40,8 +40,7 @@
 /* hero */
 
 .hero-overlay {
-  background: rgba(10, 30, 50, 0.75);
-  min-height: 90vh;
+  padding: 130px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -259,10 +258,9 @@
   cursor: pointer;
   margin-bottom: 16px;
 }
-.cta-btn:hover{
+.cta-btn:hover {
   background: #f95555;
 }
-
 
 .cta-small {
   font-size: 16px;
